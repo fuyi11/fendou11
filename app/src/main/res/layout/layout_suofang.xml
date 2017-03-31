@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="本程序实现在Activity切换过程中的淡入和放大的动画效果!"
+        android:textColor="@color/back_blue"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/indicator"
+        android:textColor="@color/white"
+        android:id="@+id/fadein"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="逐渐消失"
+        />
+    <Button
+        android:id="@+id/zoomin"
+        android:layout_marginLeft="10dp"
+        android:background="@color/color1"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="缩小"
+        />
+
+    <Button
+        android:id="@+id/zoomin2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/indicator"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="新版本更新"
+        />
+
+    <Button
+        android:id="@+id/zoomin3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color4"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="轮播图"
+        />
+
+    <Button
+        android:id="@+id/zoomin4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color1"
+        android:textColor="@color/white"
+        android:layout_marginRight="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="新版本第二种方法"
+        />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundimage="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.fuxia.w.donghua.azkzi.RoundImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/about"
+        roundimage:border_inside_color="#ff0000"
+        roundimage:border_outside_color="#000000"
+        roundimage:border_thickness="10dp" />
+
+</LinearLayout>

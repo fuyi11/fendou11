@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- 注意这个自定义控件是继承自LinearLayout -->
+
+    <com.fuxia.w.donghua.slidinglayout.SlidingLayout
+        android:id="@+id/slidingmenu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <!--侧滑布局的根节点下，有且只能有两个子元素,这两个子元素必须是四种基本布局之一,  
+            即LinearLayout, RelativeLayout, FrameLayout或TableLayout。  
+            第一个子元素将做为左侧布局，初始化后被隐藏。第二个子元素将做为右侧布局，  
+            也就是当前Activity的主布局，将主要的数据放在里面。-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0fffff"
+                android:gravity="center"
+                android:text="@string/tv_slidinglayout"
+                android:textSize="28sp"
+                android:textStyle="italic|bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_action"
+                android:padding="3dp"
+                android:text="@string/btn_show" />
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+        </LinearLayout>
+    </com.fuxia.w.donghua.slidinglayout.SlidingLayout>
+
+</LinearLayout>

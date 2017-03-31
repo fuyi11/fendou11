@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fuxia.w"
+
+    >
+
+
+    <!--<uses-sdk-->
+    <!--android:minSdkVersion="17"-->
+    <!--android:targetSdkVersion="24" />-->
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.fuxia.w.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.fuxia.w.view0.ListViewActivity" />
+        <activity android:name="com.fuxia.w.view0.DemoActivity" />
+        <activity android:name="com.fuxia.w.view0.RecyclerViewActivity" />
+        <activity android:name="com.fuxia.w.view0.ScrollViewActivity" />
+        <activity android:name="com.fuxia.w.view0.UserDefineScrollViewActivity" />
+        <activity android:name="com.fuxia.w.view0.MyRecyclerViewActivity" />
+        <activity android:name="com.fuxia.w.view0.NewRecyclerViewActivity" />
+        <activity android:name="com.fuxia.w.view0.HeadRecyclerViewActivity" />
+        <activity android:name="com.fuxia.w.view.PtrrvGridViewMode"></activity>
+        <activity android:name="com.fuxia.w.view0.PtrrvListViewMode"></activity>
+        <activity android:name="com.fuxia.w.view0.CommentsActivity"></activity>
+        <activity android:name="com.fuxia.w.view4.LunActivity"></activity>
+
+        <activity android:name="com.fuxia.w.view3.PingLunActivity" />
+        <activity android:name="com.fuxia.w.view3.PostCreatedActivity" />
+        <activity android:name="com.fuxia.w.view3.CommentActivity" />
+        <activity android:name="com.fuxia.w.view6.ListViewsActivity" />
+        <activity android:name="com.fuxia.w.view7.JRecyclerViewsActivity" />
+        <activity android:name="com.fuxia.w.view9.RetrofitViewsActivity" />
+        <activity android:name="com.fuxia.w.view10.FlowLayoutActivity" />
+        <activity android:name="com.fuxia.w.view11.FlowLayoutActivity2" />
+        <activity android:name="com.fuxia.w.v12.DetailsActivity" />
+        <activity android:name=".view10.PayActivity" />
+        <activity android:name="com.fuxia.w.view11.LunboActivity" />
+        <activity android:name="com.fuxia.w.view12.MyDataBaseActivity" />
+        <activity android:name="com.fuxia.w.view13.TanTanActivity" />
+        <activity android:name="com.fuxia.w.view14.LianDongActivity" />
+        <activity android:name="com.fuxia.w.view14.ActivityTimePicker" />
+        <activity android:name="com.fuxia.w.view15.PhoneListenerActivity" />
+        <activity android:name="com.fuxia.w.view15.PullToRefreshActivity" />
+        <activity android:name="com.fuxia.w.view16.LunboActivity2" />
+        <activity android:name="com.fuxia.w.view17.LunboActivity3" />
+        <activity android:name="com.fuxia.w.wuziqi.WuZiQiActivity" />
+        <activity android:name="com.fuxia.w.youxi.YouXiActivity" />
+        <activity android:name="com.fuxia.w.NextPageActivity"/>
+        <activity android:name="com.fuxia.w.youxi.WuZiQiActivity2" />
+        <activity android:name="com.fuxia.w.liandong.LianDongActivity"
+                  android:theme="@style/AppTheme.NoActionBar" />
+        <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
+        <!--android:theme="@style/Theme.AppCompat.NoActionBar"-->
+        <!--android:theme="@style/AppTheme.NoActionBar"-->
+
+        <!--动画-->
+        <activity android:name="com.fuxia.w.donghua.animation.SimpleAnimationActivity" />
+        <activity android:name="com.fuxia.w.donghua.azkzi.DongHuaKuActivity" />
+        <activity android:name="com.fuxia.w.donghua.DongHuaActivity" />
+        <activity android:name="com.fuxia.w.donghua.gallery.GalleryPagerActivity" />
+        <activity android:name="com.fuxia.w.donghua.gallery.ViewPagerActivity" />
+        <activity android:name="com.fuxia.w.donghua.powerview.DragGridViewActivity" />
+        <activity android:name="com.fuxia.w.donghua.powerview.PageWidgetActivity" />
+        <activity android:name="com.fuxia.w.donghua.powerview.RoundImageActivity" />
+        <activity android:name="com.fuxia.w.donghua.slidinglayout.SlidingMenuActivity" />
+        <activity android:name="com.fuxia.w.donghua.TestActivity" />
+        <activity android:name="com.fuxia.w.donghua.waterdrop.test.WaterDropActivity" />
+        <activity android:name="com.fuxia.w.donghua.waterdrop.test.BigDemoActivity" />
+        <activity android:name="com.fuxia.w.donghua.touchevent.TouchInterceptActivity" />
+        <activity android:name="com.fuxia.w.donghua.superposition.SuperPositionActivity" />
+        <activity android:name="com.fuxia.w.next.page1.TimeLianDongActivity" />
+
+
+
+
+        <service android:name="com.fuxia.w.view15.PhoneStateService"></service>
+        <receiver android:name="com.fuxia.w.view15.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.fuxia.w.view17.CompleteReceiver2"
+            android:enabled="true"
+            android:exported="true">
+            <!-- 静态注册广播 -->
+            <!-- intent过滤器,指定可以匹配哪些intent, 一般需要定义action 可以是自定义的也可是系统的 -->
+            <intent-filter>
+                <!--action-->
+                <action android:name="com.broadcast.test" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

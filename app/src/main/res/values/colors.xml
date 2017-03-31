@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="textcolor_gray">#cccccc</color>
+    <color name="colorAccent">#22A0F6</color>
+    <color name="colorPrimary">#22A0F6</color>
+    <color name="colorPrimaryDark">#22A0F6</color>
+
+
+    <color name="textcolor_black">#666666</color>
+
+    <color name="titlecolor_black">#424242</color>
+
+    <color name="textclolr_gray_deep">#999999</color>
+
+    <color name="line">#676767</color>
+
+    <color name="titlecolor">#22A0F6</color>
+
+    <color name="textcolor_0">#EDF2F8</color>
+
+    <color name="textcolor_1">#424242</color>
+
+    <color name="textblue">#22a0f5</color>
+
+    <color name="textblue_shallow">#90cffa</color>
+
+    <color name="transparent_background">#80000000</color>
+    <color name="red">#ff0000</color>
+    <color name="red_0">#FE3A3A</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="head">#FDA817</color>
+    <color name="head_1">#EC6C01</color>
+    <color name="person_red">#fc4949</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#3099FF</color>
+    <color name="black">#000000</color>
+    <color name="black2">#C8C7CC</color>
+    <color name="blue">#1883E3</color>
+    <color name="gold">#FFA900</color>
+    <color name="back_blue">#277BF8</color>
+    <color name="gray">#696969</color>
+    <color name="orange">#ff9000</color>
+    <color name="transparent">#00000000</color>
+    <color name="normal">#F0EFF5</color>
+    <color name="click">#404040</color>
+    <color name="gesture_background">#ff303237</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="title_color">#fa4343</color>
+    <color name="title_color2">#FFFFFF</color>
+    <color name="tz_title_color">#FF8247</color>
+    <color name="title_black">#333333</color>
+    <color name="view_bg_color">#f0eff4</color>
+    <color name="index_2_1_color">#1C96D4</color>
+    <color name="index_2_2_color">#7FC369</color>
+    <color name="index_2_3_color">#FEB500</color>
+    <color name="green">#228B22</color>
+    <color name="new_black_color">#333333</color>
+    <color name="new_black_color_1">#666666</color>
+    <color name="new_gray_color">#999999</color>
+    <color name="RoundProgressBar">#fb9e65</color>
+    <color name="RoundProgressBarback">#cccccc</color>
+
+    <color name="sky_background">#228FC1</color>
+    <color name="saffron">#F1B136</color>
+    <color name="eggplant">#03A679</color>
+    <color name="sienna">#EB6460</color>
+
+
+    <color name="tab_color">#8d8d8d</color>
+    <color name="tab_color2">#d6d6d6</color>
+    <color name="tab_color3">#9A9A9A</color>
+    <color name="view">#e5e5e5</color>
+    <color name="dialog_grey">#757575</color>
+
+    <color name="RoundProgressBarback_2">#585252</color>
+    <color name="tz_red">#e25453</color>
+
+    <color name="project_detail_item">#e2e0e0</color>
+    <color name="tajax_invest_color">#fe6e44</color>
+    <color name="index_kuang_red">#f76c6b</color>
+    <color name="index_rate_red">#ed3230</color>
+
+    <color name="index_detail_red">#FC4949</color>
+    <color name="RoundProgressBar_new">#ff870f</color>
+    <color name="gray_deep">#5c5c5c</color>
+
+    <color name="indicator">#00BAB5</color>
+    <color name="default_color">#6fff</color>
+    <!-- 灰色 -->
+    <color name="grey">#808080</color>
+
+    <!-- 雪白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+
+    <!-- 暗灰色 -->
+    <color name="dimgrey">#7c0505</color>
+
+    <color name="punlun">#8F8F8F</color>
+
+
+
+    <color name="color1">#ff6666</color>
+    <color name="color2">#ccccff</color>
+    <color name="color3">#9999cc</color>
+    <color name="color4">#cccc33</color>
+
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorWhite">#ffffffff</color>
+
+    <color name="vividbutton_default_color">#3eadeb</color>
+
+    <color name="vividbutton_default_shadow_color">#ff3493c8</color>
+
+    <!-- //Color Swatches provided by http://designmodo.github.io/Flat-UI/ -->
+
+
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+
+    <color name="fbutton_color_green_sea">#16a085</color>
+
+    <color name="fbutton_color_emerald">#2ecc71</color>
+
+    <color name="fbutton_color_nephritis">#27ae60</color>
+
+    <color name="fbutton_color_peter_river">#3498db</color>
+
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+
+    <color name="fbutton_color_orange">#f39c12</color>
+
+    <color name="fbutton_color_carrot">#e67e22</color>
+
+    <color name="fbutton_color_pumpkin">#d35400</color>
+
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+
+    <color name="fbutton_color_silver">#bdc3c7</color>
+
+    <color name="fbutton_color_concrete">#95a5a6</color>
+
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+</resources>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refreshviewss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.fuxia.w.view6.LoadMoreListView
+            android:id="@+id/listViewss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--android:background="@color/textcolor_0">-->
+
+    <!--&lt;!&ndash;<include&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/rl_title_fg"&ndash;&gt;-->
+        <!--&lt;!&ndash;layout="@layout/layout_titlebar" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/view_addun_fg"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@+id/rl_title_fg"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/view" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<ListView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/lv_myb_lv_fragment"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@+id/view_addun_fg"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="11dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="50dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:divider="@color/white"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:dividerHeight="10dp">&ndash;&gt;-->
+
+    <!--&lt;!&ndash;</ListView>&ndash;&gt;-->
+    <!--&lt;!&ndash;<com.scu.miomin.shswiperefresh.core.SHSwipeRefreshLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/lv_myb_lv_swipeRefreshLayout"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:load_text="加载更多"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:progress_bar_color="@color/colorPrimary"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:refresh_text="下拉刷新"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:guidance_text_color="@color/colorPrimary"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:guidance_view_bg_color="@color/transparent">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/lv_myb_lv_recyclerView"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</com.scu.miomin.shswiperefresh.core.SHSwipeRefreshLayout>&ndash;&gt;-->
+
+<!--<android.support.v4.widget.SwipeRefreshLayout-->
+    <!--android:id="@+id/lv_myb_lv_swipeRefreshLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/lv_myb_lv_recyclerView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
+<!--</android.support.v4.widget.SwipeRefreshLayout>-->
+<!--</RelativeLayout>-->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.fuxia.w.donghua.touchevent.MyLayout
+        android:id="@+id/mylayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#898923" >
+
+        <com.fuxia.w.donghua.touchevent.MyText
+            android:id="@+id/mytext"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="#cfcfcf"
+            android:gravity="center"
+            android:text="@string/activity_touchintercept_textview"
+            android:textSize="28sp" />
+    </com.fuxia.w.donghua.touchevent.MyLayout>
+
+</RelativeLayout>

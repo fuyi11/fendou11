@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/tv_sd_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerVertical="true"
+            android:textColor="@color/index_2_2_color"
+            android:text="我想念你的所有"
+            android:textSize="10dp" />
+        <!--android:text="我想念你的所有"-->
+        <TextView
+            android:id="@+id/tv_sd_huifu_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_sd_name"
+            android:text="回复："
+            android:textColor="#2b2b2b"
+            android:textSize="12dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_sd_huifu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_sd_huifu_name2"
+            android:text="你的"
+            android:textColor="@color/index_2_2_color"
+            android:textSize="12dp"
+
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_sd_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#666666"
+        android:textSize="12dp" />
+</LinearLayout>

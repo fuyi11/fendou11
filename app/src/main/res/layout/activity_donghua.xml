@@ -1,0 +1,114 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flatbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".WaterDropActivity">
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_slidinglayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_slidinglayout"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_gallery"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/vp_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/vp_gallery"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_roundimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_roundimage"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_simpleanimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_simpleanimation"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_waterdrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_waterdrop"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_draggridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_draggridview"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_downimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_downimage"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_turnpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_turnpage"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_superposition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_superposition"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+
+        <com.fuxia.w.donghua.azkzi.VividButton
+            android:id="@+id/btn_touchintercept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_action"
+            android:text="@string/btn_touchintercept"
+            flatbutton:button_color="@color/fbutton_color_turquoise"
+            flatbutton:shadow_enabled="true" />
+    </LinearLayout>
+</ScrollView>

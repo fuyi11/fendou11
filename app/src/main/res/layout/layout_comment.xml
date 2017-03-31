@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_sd_sdls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_stock_tubiao3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_pinl"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/iv_stock_tubiao3">
+                <!--姓名-->
+                <TextView
+                    android:id="@+id/tv_stock_pl_item3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="hhhhhhhhhhhzs来打发打发"
+                    android:textColor="@color/index_2_2_color"
+                    android:textSize="13dip" />
+
+                <ImageView
+                    android:id="@+id/iv_likes3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tv_likes3"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/tv_likes3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="0"
+                    android:textColor="#2b2b2b"
+                    android:textSize="13dp" />
+
+
+                <ImageView
+                    android:id="@+id/iv_edts3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/tv_edts3"
+                    android:src="@drawable/icon_fhbig" />
+
+                <TextView
+                    android:id="@+id/tv_edts3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_toLeftOf="@+id/iv_likes3"
+                    android:text="0"
+                    android:textColor="#2b2b2b"
+                    android:textSize="13dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_stock_time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_pinl"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/iv_stock_tubiao3"
+                android:text="大咖dskk马丁斯风力达四方"
+                android:textColor="#2b2b2b"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/tv_stock_content3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_stock_time3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/iv_stock_tubiao3"
+                android:text="ddddgfdgfdgfd"
+                android:textColor="#666666"
+                android:textSize="12dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fl_sd_coment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:id="@+id/ll_sd_zipinglun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_sd_sdls"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_stock_tubiao4"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="6dp"
+                    />
+
+                <!--子评论-->
+
+                <LinearLayout
+                    android:id="@+id/lv_zi_pinglun3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/iv_stock_tubiao4"
+                    android:orientation="vertical">
+
+                    <com.fuxia.w.view.NoScrollListView
+
+                        android:id="@+id/no_scroll_list_reply3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:divider="#ffffff">
+
+                    </com.fuxia.w.view.NoScrollListView>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+
+
+

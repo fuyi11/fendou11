@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">奋斗奋斗</string>
+
+    <string name="hello">好好学习</string>
+    <string name="nomoredata">没有数据 </string>
+    <string name="gridview_mode">GridView Mode</string>
+    <string name="listview_mode">ListView Mode</string>
+    <string name="demo_loadmore">-加载中-</string>
+
+    <string name="button_update">开启更新</string>
+    <string name="button_reverse">反向</string>
+
+
+    <!--动画-->
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_slidinglayout">侧滑栏SlidingLayout</string>
+    <string name="tv_slidinglayout">这是侧滑栏界面</string>
+    <string name="btn_show">&lt; 查看侧滑栏</string>
+    <string name="imageview_description">imageview_description</string>
+    <string name="btn_gallery">ViewPager实现画廊</string>
+    <string name="vp_gallery">简单用viewpager实现画廊</string>
+    <string name="btn_roundimage">圆形图片</string>
+    <string name="btn_simpleanimation">简单的动画效果</string>
+    <string name="start">Start</string>
+    <string name="btn_waterdrop">可拖拽的弹簧式水泡</string>
+    <string name="btn_draggridview">可拖拽换位的GridView</string>
+    <string name="btn_downimage">下载图片</string>
+    <string name="btn_turnpage">翻书页效果</string>
+    <string name="btn_superposition">叠楼效果</string>
+    <string name="activity_touchintercept_textview">这是上层控件</string>
+    <string name="btn_touchintercept">android 控件嵌套点击触发事件</string>
+    <string name="reply">回复</string>
+
+
+    <string name="post_list">得到所有的职位</string>
+    <string name="new_post">写一篇新日志</string>
+    <string name="post">帖子</string>
+    <string name="userIdText"><u>User ID:</u></string>
+    <string name="postIdText"><u>Post ID:</u></string>
+    <string name="commentIdText"><u>Comment ID:</u></string>
+    <string name="nameText"><u>Name:</u></string>
+    <string name="titleForm">Post title</string>
+    <string name="bodyForm">Message</string>
+    <string name="titleText"><u>Insert title</u></string>
+    <string name="emailText"><u>E-mail:</u></string>
+    <string name="problems">有一些问题</string>
+    <string name="problems_parsing">未能解析JSON</string>
+    <string name="problems_network">加载数据。请检查你的网络设置</string>
+    <string name="response_code">响应代码:</string>
+    <string name="unsuccessful_request">失败的请求</string>
+    <string name="progress_bar_title">Loading</string>
+    <string name="progress_bar_message">请等到加载内容</string>
+    <string name="submit">Submit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">你好空白的片段</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="title_hint"><i>青蛙的问题</i></string>
+    <string name="body_hint"><i>有一天我的青蛙...</i></string>
+    <string name="post_request_ok">数据发布成功!</string>
+
+
+    <string name="sun_refresh_style">Sun refresh style</string>
+    <string name="jet_refresh_style">Jet refresh style</string>
+    <string name="polite_message">Wait a moment please. Breathe deeply and watch beautiful animation.</string>
+    <string name="trip_to_india">Trip to India</string>
+    <string name="trip_to_italy">Trip to Italy</string>
+    <string name="trip_to_indonesia">Trip to Indonesia</string>
+
+
+    <string name="switch_wrap_mode">转换wrap模式</string>
+    <string name="switch_wrap_mode_true">转换wrap模式 | 当前 : true</string>
+    <string name="switch_wrap_mode_false">转换wrap模式 | 当前 : false</string>
+    <string name="content_1">设置内容一</string>
+    <string name="content_2">设置内容二</string>
+    <string name="scroll_downwards_2">向下滑动2个单元</string>
+    <string name="get_current_content">获取当前选中内容</string>
+    <string name="to_time_picker_view">TimePickerView</string>
+    <string name="activity_time_picker">TimePickerView</string>
+    <string name="picked_content_is">选中的内容是：</string>
+    <string name="hour_hint">时</string>
+    <string name="minute_hint">分</string>
+    <string name="get_data">获取数据</string>
+    <string name="in_scroll_view">In ScrollView</string>
+    <string name="show_in_dialog">Dialog中显示</string>
+    <string name="place_holder_above_2">HourPicker的响应回调在子线程中执行，其它两者在主线程中执行</string>
+    <string name="place_holder_below_1">Placeholder Button2</string>
+    <string name="place_holder_below_2">Placeholder Button3</string>
+    <string name="place_holder_below_3">Placeholder Button4</string>
+    <string name="current_thread_name">回调所处线程名称: </string>
+    <string name="current_picked_value">当前选中值: </string>
+
+    <string-array name="test_display_1">
+        <item>《咏鹅》</item>
+        <item>鹅鹅鹅</item>
+        <item>曲项向天歌</item>
+        <item>白毛浮绿水</item>
+        <item>红掌拨清波</item>
+    </string-array>
+
+    <string-array name="test_display_2">
+        <item>《水调歌头》</item>
+        <item>明月几时有</item>
+        <item>把酒问青天</item>
+        <item>不知天上宫阙</item>
+        <item>今夕是何年</item>
+        <item>我欲乘风归去</item>
+        <item>又恐琼楼玉宇</item>
+        <item>高处不胜寒</item>
+        <item>起舞弄清影</item>
+        <item>何似在人间</item>
+        <item>转朱阁</item>
+        <item>低绮户</item>
+        <item>照无眠</item>
+        <item>不应有恨</item>
+        <item>何事长向别时圆</item>
+        <item>人有悲欢离合</item>
+        <item>月有阴晴圆缺</item>
+        <item>此事古难全</item>
+        <item>但愿人长久</item>
+        <item>千里共婵娟</item>
+    </string-array>
+
+    <string-array name="hour_display">
+        <item>12</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="minute_display">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+    </string-array>
+
+    <string-array name="half_day">
+        <item>上午</item>
+        <item>下午</item>
+    </string-array>
+
+
+
+<!--时间联动-->
+    <!-- The title of the date picker dialog. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_dialog_title">日期选择</string>
+    <!-- Name of the button in the date/time picker to accept the date/time change -->
+    <string name="date_time_set">Set</string>
+    <!-- Name of the button in the date/time picker to accept the date/time change -->
+    <string name="date_time_done">Done</string>
+
+    <!-- DatePicker - accessibility support -->
+    <!-- Description of the button to increment the DatePicker's month value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_increment_month_button">Increment month</string>
+    <!-- Description of the button to decrement the DatePicker's month value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_decrement_month_button">Decrement month</string>
+    <!-- Description of the button to increment the DatePicker's day value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_increment_day_button">Increment day</string>
+    <!-- Description of the button to decrement the DatePicker's day value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_decrement_day_button">Decrement day</string>
+    <!-- Description of the button to increment the DatePicker's year value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_increment_year_button">Increment year</string>
+    <!-- Description of the button to decrement the DatePicker's year value. [CHAR LIMIT=NONE] -->
+    <string name="date_picker_decrement_year_button">Decrement year</string>
+
+</resources>

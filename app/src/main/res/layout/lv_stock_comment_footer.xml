@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/sl_sk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/rl_sd_fasong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#ffff"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/et_sd_huifu2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="60dp"
+
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text=""
+                android:textColor="#666666"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/btn_sd_send"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:background="@color/index_2_2_color"
+                android:text="回复"
+                android:textColor="#ffff"
+                android:textSize="13dp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RadioGroup
+        android:id="@+id/rg_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:button="@null"
+            android:drawableTop="@drawable/icon_fhbig"
+            android:visibility="visible" />
+    </RadioGroup>
+
+</RelativeLayout>
