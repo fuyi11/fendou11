@@ -51,8 +51,6 @@ public class FlowLayoutActivity2 extends AppCompatActivity implements View.OnCli
 
 
 
-
-
         completeReceiver = new CompleteReceiver();
         registerReceiver(completeReceiver, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
     }

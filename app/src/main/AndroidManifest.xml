@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fuxia.w"
-
-    >
+    package="com.fuxia.w">
 
 
     <!--<uses-sdk-->
@@ -30,7 +28,6 @@
         <activity android:name="com.fuxia.w.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -93,6 +90,9 @@
         <activity android:name="com.fuxia.w.donghua.touchevent.TouchInterceptActivity" />
         <activity android:name="com.fuxia.w.donghua.superposition.SuperPositionActivity" />
         <activity android:name="com.fuxia.w.next.page1.TimeLianDongActivity" />
+        <activity android:name="com.fuxia.w.next.page1.OverlayActivity" />
+        <activity android:name=".next.page3.TinaDaoActivity" />
+        <activity android:name=".next.page2.XiaTanActivity" />
 
 
 

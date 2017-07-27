@@ -21,7 +21,27 @@
         android:layout_marginTop="10dp"
         android:layout_toRightOf="@+id/nx_buttons1"
         android:background="@color/color1"
-        android:text="时间联动"
+        android:text="瓜瓜乐"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons2"
+        android:background="@color/color3"
+        android:text="签到"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons3"
+        android:background="@color/color3"
+        android:text="下弹"
         android:textColor="#ffff" />
 
 
