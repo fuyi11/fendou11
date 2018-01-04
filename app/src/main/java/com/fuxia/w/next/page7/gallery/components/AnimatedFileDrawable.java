@@ -1,4 +1,4 @@
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
@@ -15,7 +15,9 @@ import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
 
-import com.dhc.gallery.utils.AndroidUtilities;
+
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+
 
 import java.io.File;
 import java.util.concurrent.ScheduledThreadPoolExecutor;

@@ -1,4 +1,4 @@
-package com.dhc.gallery.utils;
+package com.fuxia.w.next.page7.gallery.utils;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -15,12 +15,13 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
 
-import com.dhc.gallery.components.AnimatedFileDrawable;
-import com.dhc.gallery.proxy.ImageReceiver;
-import com.dhc.gallery.tl.Document;
-import com.dhc.gallery.tl.FileLocation;
-import com.dhc.gallery.tl.PhotoSize;
-import com.dhc.gallery.tl.TLObject;
+
+import com.fuxia.w.next.page7.gallery.components.AnimatedFileDrawable;
+import com.fuxia.w.next.page7.gallery.proxy.ImageReceiver;
+import com.fuxia.w.next.page7.gallery.tl.Document;
+import com.fuxia.w.next.page7.gallery.tl.FileLocation;
+import com.fuxia.w.next.page7.gallery.tl.PhotoSize;
+import com.fuxia.w.next.page7.gallery.tl.TLObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

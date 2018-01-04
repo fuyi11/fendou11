@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.tl;
+package com.fuxia.w.next.page7.gallery.tl;
 
 public class TLUploadFile extends TLObject {
     public static int constructor = 0x96a18d5;

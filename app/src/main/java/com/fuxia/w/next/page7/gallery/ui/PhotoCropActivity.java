@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.dhc.gallery.ui;
+package com.fuxia.w.next.page7.gallery.ui;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,15 +19,16 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.actionbar.ActionBar;
-import com.dhc.gallery.actionbar.ActionBarMenu;
-import com.dhc.gallery.actionbar.BaseFragment;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.Bitmaps;
-import com.dhc.gallery.utils.ImageLoader;
-import com.dhc.gallery.utils.LayoutHelper;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBar;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBarMenu;
+import com.fuxia.w.next.page7.gallery.actionbar.BaseFragment;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.Bitmaps;
+import com.fuxia.w.next.page7.gallery.utils.ImageLoader;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 import java.io.File;
 

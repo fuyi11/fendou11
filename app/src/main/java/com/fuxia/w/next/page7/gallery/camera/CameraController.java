@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.dhc.gallery.camera;
+package com.fuxia.w.next.page7.gallery.camera;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -20,11 +20,13 @@ import android.media.ThumbnailUtils;
 import android.os.Build;
 import android.provider.MediaStore;
 
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.Bitmaps;
-import com.dhc.gallery.utils.ImageLoader;
-import com.dhc.gallery.utils.NotificationCenter;
-import com.dhc.gallery.utils.Utilities;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.Bitmaps;
+import com.fuxia.w.next.page7.gallery.utils.ImageLoader;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
+import com.fuxia.w.next.page7.gallery.utils.NotificationCenter;
+import com.fuxia.w.next.page7.gallery.utils.Utilities;
 
 import java.io.File;
 import java.io.FileOutputStream;

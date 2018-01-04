@@ -204,8 +204,7 @@
     </string-array>
 
 
-
-<!--时间联动-->
+    <!--时间联动-->
     <!-- The title of the date picker dialog. [CHAR LIMIT=NONE] -->
     <string name="date_picker_dialog_title">日期选择</string>
     <!-- Name of the button in the date/time picker to accept the date/time change -->
@@ -227,4 +226,51 @@
     <!-- Description of the button to decrement the DatePicker's year value. [CHAR LIMIT=NONE] -->
     <string name="date_picker_decrement_year_button">Decrement year</string>
 
+
+    <string name="PickerPhotos">图片</string>
+    <string name="PickerVideo">视频</string>
+    <string name="AllPhotos">所有图片</string>
+    <string name="AllVideo">所有视频</string>
+    <string name="NoPhotos">还没有图片</string>
+    <string name="NoVideo">还没有视频</string>
+    <string name="Crop">剪切</string>
+    <string name="AttachPhoto">图片</string>
+    <string name="Of">%1$d / %2$d</string>
+    <string name="Set">设置</string>
+    <string name="Album">相册</string>
+
+
+
+    <string name="SearchImages">FIND IMAGES</string>
+    <string name="SearchGifs">FIND GIFS</string>
+
+    <string name="NoResult">No results</string>
+    <string name="SearchImagesInfo">WEB SEARCH</string>
+
+    <string name="MostSelect">你最多只能选择%d张图片</string>
+
+    <string name="Send">完成</string>
+    <string name="Cancel">取消</string>
+    <string name="Preview">预览</string>
+    <string name="album_read_fail">相册读取失败,请检查权限</string>
+    <string name="capture_video_size_in_kb">视频文件大小为: %1$dKB,</string>
+    <string name="capture_video_size_in_mb">视频文件大小为: %1$.2fMB,</string>
+    <string name="over_video_size_in_kb">视频已超限,大小为: %1$dKB,</string>
+    <string name="over_video_size_in_mb">视频已超限,大小为: %1$.2fMB,</string>
+    <string name="is_send_video">是否发送该视频？</string>
+    <string name="SearchImagesTitle">Search web</string>
+    <string name="SearchGifsTitle">Search GIFs</string>
+    <string name="ClearSearch">Clear search history?</string>
+    <string name="ClearButton">Clear</string>
+    <string name="NoRecentPhotos">No recent photos</string>
+    <string name="NoRecentGIFs">No recent GIFs</string>
+    <bool name="isTablet">false </bool>
+
+
+
+
+    <string name="title1">God of War Ascension</string>
+    <string name="title2">Assassin\'s Creed III</string>
+    <string name="title3">Hitman Absolution</string>
+    <string name="title4">Dishonored</string>
 </resources>

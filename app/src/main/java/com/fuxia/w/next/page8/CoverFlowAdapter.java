@@ -1,4 +1,4 @@
-package it.moondroid.coverflowdemo;
+package com.fuxia.w.next.page8;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.fuxia.w.R;
 
 import java.util.ArrayList;
 

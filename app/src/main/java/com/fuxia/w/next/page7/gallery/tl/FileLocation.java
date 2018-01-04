@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.tl;
+package com.fuxia.w.next.page7.gallery.tl;
 
 public class FileLocation extends TLObject {
     public int dc_id;

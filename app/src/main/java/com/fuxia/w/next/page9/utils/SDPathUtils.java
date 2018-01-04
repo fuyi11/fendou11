@@ -1,4 +1,4 @@
-package com.dev.testselectpics.utils;
+package com.fuxia.w.next.page9.utils;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -93,6 +93,8 @@ public class SDPathUtils {
         }
         file = null;
         return filePath;
+
+
     }
 
     /**

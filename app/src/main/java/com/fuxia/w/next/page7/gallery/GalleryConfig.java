@@ -1,13 +1,13 @@
 
-package com.dhc.gallery;
+package com.fuxia.w.next.page7.gallery;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.dhc.gallery.ui.GalleryActivity;
+
 
 /**
- * the {@link GalleryActivity} of buidler.
+ * the {@link } of buidler.
  */
 public class GalleryConfig implements Parcelable {
 
@@ -156,7 +156,7 @@ public class GalleryConfig implements Parcelable {
         this.limitRecordSize = in.readInt();
     }
 
-    public static final Parcelable.Creator<GalleryConfig> CREATOR = new Parcelable.Creator<GalleryConfig>() {
+    public static final Creator<GalleryConfig> CREATOR = new Creator<GalleryConfig>() {
         @Override
         public GalleryConfig createFromParcel(Parcel source) {
             return new GalleryConfig(source);

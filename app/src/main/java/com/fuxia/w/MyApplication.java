@@ -4,7 +4,13 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
+
+import com.facebook.drawee.backends.pipeline.Fresco;
 import com.fuxia.w.view11.CretinAutoUpdateUtils;
+import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import com.weavey.loading.lib.LoadingLayout;
 
 /**
@@ -28,7 +34,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        Fresco.initialize(this);
         // 初始化友盟
        // MobclickAgent.setDebugMode(true);
         mContext = getApplicationContext();
@@ -62,6 +68,7 @@ public class MyApplication extends Application {
                 .setReloadButtonWidthAndHeight(150,40);
 //                .setAllPageBackgroundColor(R.color.background);
 
+        initImageLoader(getApplicationContext());
 
     }
 
@@ -80,5 +87,28 @@ public class MyApplication extends Application {
 
     public static Context getContext() {
         return mContext;
+    }
+
+    public static void initImageLoader(Context context) {
+        // This configuration tuning is custom. You can tune every option, you may tune some of them,
+        // or you can create default configuration by
+        //  ImageLoaderConfiguration.createDefault(this);
+        // method.
+        ImageLoaderConfiguration.Builder config = new ImageLoaderConfiguration.Builder(context);
+        config.threadPriority(Thread.NORM_PRIORITY - 2);
+        config.denyCacheImageMultipleSizesInMemory();
+        config.diskCacheFileNameGenerator(new Md5FileNameGenerator());
+        config.diskCacheSize(50 * 1024 * 1024); // 50 MiB
+        config.tasksProcessingOrder(QueueProcessingType.LIFO);
+        config.writeDebugLogs(); // Remove for release app
+
+        // Initialize ImageLoader with configuration.
+        ImageLoader.getInstance().init(config.build());
+    }
+
+
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
     }
 }

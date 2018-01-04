@@ -1,7 +1,7 @@
 /**
  * 
  */
-package it.moondroid.coverflow.components.ui.containers;
+package com.fuxia.w.next.page8.ui.containers;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -33,11 +33,12 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.Scroller;
 
+import com.fuxia.w.R;
+import com.fuxia.w.next.page8.general.Validate;
+
 import java.lang.ref.WeakReference;
 import java.util.LinkedList;
 
-import it.moondroid.coverflow.R;
-import it.moondroid.coverflow.components.general.Validate;
 
 
 /**
@@ -1121,6 +1122,7 @@ public class FeatureCoverFlow extends EndlessLoopAdapterContainer implements Vie
             return onTouchEvent(ev);
         }
 
+
         // if have a target, see if we're allowed to and want to intercept its
         // events
         if (onInterceptTouchEvent(ev)) {
@@ -1154,7 +1156,7 @@ public class FeatureCoverFlow extends EndlessLoopAdapterContainer implements Vie
 
         return target.dispatchTouchEvent(ev);
 	}
-	
+
 
 	@SuppressWarnings("deprecation")
 	@Override
@@ -1163,8 +1165,7 @@ public class FeatureCoverFlow extends EndlessLoopAdapterContainer implements Vie
 		final int widthSpecMode = MeasureSpec.getMode(widthMeasureSpec);
 		final int widthSpecSize = MeasureSpec.getSize(widthMeasureSpec);
 		final int heightSpecSize = MeasureSpec.getSize(heightMeasureSpec);
-		
-		
+
 		int h,w;
 		if(heightSpecMode == MeasureSpec.EXACTLY) h = heightSpecSize;
 		else{

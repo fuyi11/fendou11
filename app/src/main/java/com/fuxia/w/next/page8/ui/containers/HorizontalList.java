@@ -1,4 +1,4 @@
-package it.moondroid.coverflow.components.ui.containers;
+package com.fuxia.w.next.page8.ui.containers;
 
 
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.Scroller;
 
-import it.moondroid.coverflow.components.general.ToolBox;
-import it.moondroid.coverflow.components.ui.containers.interfaces.IViewObserver;
+import com.fuxia.w.next.page8.general.ToolBox;
+import com.fuxia.w.next.page8.ui.containers.interfaces.IViewObserver;
 
 
 public class HorizontalList extends ViewGroup {
@@ -320,7 +320,7 @@ public class HorizontalList extends ViewGroup {
 	}
 	
 	/**
-	 * @param topline Y coordinate of topline
+	 * @param Y coordinate of topline
 	 * @param left X coordinate where should we start layout
 	 */
 	protected int layoutChild(View v, int left, MarginLayoutParams lp){

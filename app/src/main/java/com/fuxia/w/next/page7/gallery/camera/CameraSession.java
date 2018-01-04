@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.dhc.gallery.camera;
+package com.fuxia.w.next.page7.gallery.camera;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,7 +21,7 @@ import android.view.Surface;
 import android.view.WindowManager;
 
 
-import com.dhc.gallery.utils.Gallery;
+import com.fuxia.w.next.page7.gallery.utils.Gallery;
 
 import java.util.ArrayList;
 

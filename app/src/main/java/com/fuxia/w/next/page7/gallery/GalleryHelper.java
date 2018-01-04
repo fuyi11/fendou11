@@ -1,4 +1,4 @@
-package com.dhc.gallery;
+package com.fuxia.w.next.page7.gallery;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -6,7 +6,8 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.widget.Toast;
 
-import com.dhc.gallery.ui.GalleryActivity;
+
+import com.fuxia.w.next.page7.gallery.ui.GalleryActivity;
 
 import static android.os.Environment.MEDIA_MOUNTED;
 
@@ -71,12 +72,7 @@ public class GalleryHelper {
      *
      * 选择的类型
      * @param type
-     * {@link GalleryConfig.SELECT_PHOTO }
-     * {@link GalleryConfig.TAKE_PHOTO }
-     * {@link GalleryConfig.RECORD_VEDIO }
-     * {@link GalleryConfig.SELECT_VEDIO }
-     * {@link GalleryConfig.TAKEPHOTO_RECORDVEDIO }
-     * @return GalleryHelper
+
      */
     public GalleryHelper type(int type) {
         configuration.setType(type);

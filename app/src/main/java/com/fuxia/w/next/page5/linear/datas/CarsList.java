@@ -1,4 +1,4 @@
-package qdx.stickyheaderdecoration.linear.datas;
+package com.fuxia.w.next.page5.linear.datas;
 
 
 import java.util.ArrayList;

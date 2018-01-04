@@ -1,4 +1,4 @@
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -17,10 +17,10 @@ import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.ScrollView;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
-
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 import java.lang.reflect.Field;
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package com.example.lvruheng.autoflowlayout;
+package com.fuxia.w.next.page6;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.library.AutoFlowLayout;
-import com.example.library.FlowAdapter;
+
+import com.fuxia.w.R;
 
 import java.util.Arrays;
 
@@ -27,11 +27,13 @@ public class SpecialFlowActivity extends AppCompatActivity {
             "Kotlin", "Erlang", "Groovy", "Scheme", "Rust", "Logo", "Prolog", "LabVIEW"};
     private LayoutInflater mLayoutInflater;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.special_flow);
         mChangeButton = (Button) findViewById(R.id.bt_change);
+
         mLayoutInflater = LayoutInflater.from(this);
         mLongClickButton = (Button) findViewById(R.id.bt_long_click);
         mFlowLayout = (AutoFlowLayout) findViewById(R.id.afl_cotent);
@@ -53,7 +55,7 @@ public class SpecialFlowActivity extends AppCompatActivity {
         mFlowLayout.setOnLongItemClickListener(new AutoFlowLayout.OnLongItemClickListener() {
             @Override
             public void onLongItemClick(int position, View view) {
-                ImageView imageView = view.findViewById(R.id.iv_delete);
+                ImageView imageView = (ImageView) view.findViewById(R.id.iv_delete);
                 imageView.setVisibility(View.VISIBLE);
             }
         });

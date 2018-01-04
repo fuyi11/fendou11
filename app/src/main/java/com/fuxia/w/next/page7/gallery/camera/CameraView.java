@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.dhc.gallery.camera;
+package com.fuxia.w.next.page7.gallery.camera;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -25,7 +25,9 @@ import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import com.dhc.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 import java.util.ArrayList;
 import java.util.concurrent.Semaphore;

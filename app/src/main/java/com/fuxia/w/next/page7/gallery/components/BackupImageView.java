@@ -1,4 +1,4 @@
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -8,9 +8,10 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.dhc.gallery.proxy.ImageReceiver;
-import com.dhc.gallery.tl.FileLocation;
-import com.dhc.gallery.tl.TLObject;
+import com.fuxia.w.next.page7.gallery.proxy.ImageReceiver;
+import com.fuxia.w.next.page7.gallery.tl.FileLocation;
+import com.fuxia.w.next.page7.gallery.tl.TLObject;
+
 
 public class BackupImageView extends View {
 
@@ -70,8 +71,8 @@ public class BackupImageView extends View {
     }
 
     public void setImage(TLObject path, String httpUrl, String filter, Drawable thumb,
-            Bitmap thumbBitmap, FileLocation thumbLocation, String thumbFilter, String ext,
-            int size) {
+                         Bitmap thumbBitmap, FileLocation thumbLocation, String thumbFilter, String ext,
+                         int size) {
         if (thumbBitmap != null) {
             thumb = new BitmapDrawable(null, thumbBitmap);
         }

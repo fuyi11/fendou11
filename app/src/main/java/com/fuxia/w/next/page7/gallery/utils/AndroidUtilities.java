@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.utils;
+package com.fuxia.w.next.page7.gallery.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -36,7 +36,8 @@ import android.widget.EdgeEffect;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.dhc.gallery.R;
+
+import com.fuxia.w.R;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -48,7 +49,8 @@ import java.util.Hashtable;
 import java.util.Locale;
 import java.util.regex.Pattern;
 
-import static com.dhc.gallery.utils.Gallery.applicationContext;
+import static com.fuxia.w.next.page7.gallery.utils.Gallery.applicationContext;
+
 
 public class AndroidUtilities {
 
@@ -152,7 +154,7 @@ public class AndroidUtilities {
     }
 
     private static File getAlbumDir() {
-        if (Build.VERSION.SDK_INT >= 23 && Gallery.applicationContext.checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+        if (Build.VERSION.SDK_INT >= 23 && applicationContext.checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
             return FileLoader.getInstance().getDirectory(FileLoader.MEDIA_DIR_CACHE);
         }
         File storageDir = null;
@@ -327,7 +329,7 @@ public class AndroidUtilities {
         Gallery.applicationHandler.removeCallbacks(runnable);
     }
 
-    public static boolean isTablet() {
+    public static boolean isTablet() { //isTablet判断是否为平板
         if (isTablet == null) {
             isTablet = applicationContext.getResources().getBoolean(R.bool.isTablet);
         }

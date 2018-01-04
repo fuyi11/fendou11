@@ -1,4 +1,4 @@
-package com.dev.testselectpics.utils;
+package com.fuxia.w.next.page9.utils;
 
 import android.content.ContentResolver;
 import android.content.Context;

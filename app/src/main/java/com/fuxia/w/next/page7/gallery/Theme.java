@@ -1,5 +1,5 @@
 
-package com.dhc.gallery;
+package com.fuxia.w.next.page7.gallery;
 
 import android.content.res.ColorStateList;
 import android.graphics.Canvas;
@@ -11,7 +11,8 @@ import android.graphics.drawable.RippleDrawable;
 import android.graphics.drawable.StateListDrawable;
 import android.os.Build;
 
-import com.dhc.gallery.utils.AndroidUtilities;
+
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
 
 import java.util.HashMap;
 

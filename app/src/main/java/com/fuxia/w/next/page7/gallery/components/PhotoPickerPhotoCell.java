@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -8,12 +8,13 @@ import android.content.Context;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.proxy.AnimatorListenerAdapterProxy;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.proxy.AnimatorListenerAdapterProxy;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
-import static com.dhc.gallery.ui.PhotoAlbumPickerActivity.DarkTheme;
+import static com.fuxia.w.next.page7.gallery.ui.PhotoAlbumPickerActivity.DarkTheme;
 
 public class PhotoPickerPhotoCell extends FrameLayout {
 

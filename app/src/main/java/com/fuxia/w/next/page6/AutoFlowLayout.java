@@ -1,4 +1,4 @@
-package com.example.library;
+package com.fuxia.w.next.page6;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,6 +9,9 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+
+import com.fuxia.w.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -127,7 +130,7 @@ public class AutoFlowLayout <T> extends ViewGroup  {
         init(context,attrs);
     }
     private void init(Context context, AttributeSet attrs) {
-        TypedArray ta = context.obtainStyledAttributes(attrs,R.styleable.AutoFlowLayout);
+        TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.AutoFlowLayout);
         mIsSingleLine = ta.getBoolean(R.styleable.AutoFlowLayout_singleLine,false);
         mMaxLineNumbers = ta.getInteger(R.styleable.AutoFlowLayout_maxLines,Integer.MAX_VALUE);
         mIsMultiChecked = ta.getBoolean(R.styleable.AutoFlowLayout_multiChecked,false);
@@ -147,9 +150,9 @@ public class AutoFlowLayout <T> extends ViewGroup  {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         if (mIsGridMode) {
-            setGridMeasure(widthMeasureSpec,heightMeasureSpec);
+            setGridMeasure(widthMeasureSpec,heightMeasureSpec);//网格布局的测量模式
         } else {
-            setFlowMeasure(widthMeasureSpec,heightMeasureSpec);
+            setFlowMeasure(widthMeasureSpec,heightMeasureSpec);//流式布局的测量模式
         }
 
 
@@ -860,13 +863,13 @@ public class AutoFlowLayout <T> extends ViewGroup  {
     }
 
     public interface OnItemClickListener{
-        void onItemClick(int position,View view);
+        void onItemClick(int position, View view);
     }
     public void setOnItemClickListener(OnItemClickListener onItemClickListener){
         mOnItemClickListener = onItemClickListener;
     }
     public interface OnLongItemClickListener{
-        void onLongItemClick(int position,View view);
+        void onLongItemClick(int position, View view);
     }
     public void setOnLongItemClickListener(OnLongItemClickListener onLongItemClickListener){
         mOnLongItemClickListener = onLongItemClickListener;

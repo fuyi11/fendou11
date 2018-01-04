@@ -1,4 +1,4 @@
-package it.moondroid.coverflow.components.general;
+package com.fuxia.w.next.page8.general;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
@@ -297,7 +297,7 @@ public class Validate {
      * 
      * @param map the map to check
      * @throws IllegalArgumentException if the map is empty
-     * @see #notEmpty(java.util.Map, String)
+     * @see #notEmpty(Map, String)
      */
     public static void notEmpty(Map map) {
         notEmpty(map, "The validated map is empty");

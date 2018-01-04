@@ -23,7 +23,7 @@ import android.widget.ImageView;
 /**
  * @author king
  */
-public class ClipImageView extends ImageView implements View.OnTouchListener,
+public class ClipImageView2 extends ImageView implements View.OnTouchListener,
 		ViewTreeObserver.OnGlobalLayoutListener {
 
 	private static final int BORDERDISTANCE = ClipView.BORDERDISTANCE;
@@ -48,15 +48,15 @@ public class ClipImageView extends ImageView implements View.OnTouchListener,
 	private final RectF displayRect = new RectF();
 	private final float[] matrixValues = new float[9];
 
-	public ClipImageView(Context context) {
+	public ClipImageView2(Context context) {
 		this(context, null);
 	}
 
-	public ClipImageView(Context context, AttributeSet attr) {
+	public ClipImageView2(Context context, AttributeSet attr) {
 		this(context, attr, 0);
 	}
 
-	public ClipImageView(Context context, AttributeSet attr, int defStyle) {
+	public ClipImageView2(Context context, AttributeSet attr, int defStyle) {
 		super(context, attr, defStyle);
 
 		super.setScaleType(ScaleType.MATRIX);
@@ -306,7 +306,7 @@ public class ClipImageView extends ImageView implements View.OnTouchListener,
 					|| ((deltaScale < 1f) && (targetZoom < currentScale))) {
 				// We haven't hit our target scale yet, so post ourselves
 				// again
-				postOnAnimation(ClipImageView.this, this);
+				postOnAnimation(ClipImageView2.this, this);
 
 			} else {
 				// We've scaled past our target zoom, so calculate the

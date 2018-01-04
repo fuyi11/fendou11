@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.ui;
+package com.fuxia.w.next.page7.gallery.ui;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -13,13 +13,14 @@ import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.widget.FrameLayout;
 
-import com.dhc.gallery.GalleryConfig;
-import com.dhc.gallery.R;
-import com.dhc.gallery.actionbar.ActionBarLayout;
-import com.dhc.gallery.actionbar.BaseFragment;
-import com.dhc.gallery.proxy.PhotoViewer;
-import com.dhc.gallery.utils.Gallery;
-import com.dhc.gallery.utils.ImageLoader;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.GalleryConfig;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBarLayout;
+import com.fuxia.w.next.page7.gallery.actionbar.BaseFragment;
+import com.fuxia.w.next.page7.gallery.proxy.PhotoViewer;
+import com.fuxia.w.next.page7.gallery.utils.Gallery;
+import com.fuxia.w.next.page7.gallery.utils.ImageLoader;
 
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;

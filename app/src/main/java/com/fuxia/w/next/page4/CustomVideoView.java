@@ -1,11 +1,11 @@
-package com.zhuyong.balloonrelativelayout;
+package com.fuxia.w.next.page4;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.VideoView;
 
 /**
- * Created by zhuyong on 2017/7/20.
+ * Created by fuyi on 2017/7/20.
  * 自定义VideoView解决全屏问题
  */
 public class CustomVideoView extends VideoView {

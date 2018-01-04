@@ -1,4 +1,4 @@
-package com.dhc.gallery.ui;
+package com.fuxia.w.next.page7.gallery.ui;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -26,27 +26,29 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.dhc.gallery.GalleryConfig;
-import com.dhc.gallery.R;
-import com.dhc.gallery.actionbar.BaseFragment;
-import com.dhc.gallery.actionbar.ShutterButton;
-import com.dhc.gallery.camera.CameraController;
-import com.dhc.gallery.camera.CameraView;
-import com.dhc.gallery.components.BaseDialog;
-import com.dhc.gallery.proxy.PhotoViewer;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
-import com.dhc.gallery.utils.MediaController;
-import com.dhc.gallery.utils.NotificationCenter;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.GalleryConfig;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.actionbar.BaseFragment;
+import com.fuxia.w.next.page7.gallery.actionbar.ShutterButton;
+import com.fuxia.w.next.page7.gallery.camera.CameraController;
+import com.fuxia.w.next.page7.gallery.camera.CameraView;
+import com.fuxia.w.next.page7.gallery.components.BaseDialog;
+import com.fuxia.w.next.page7.gallery.proxy.PhotoViewer;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
+import com.fuxia.w.next.page7.gallery.utils.MediaController;
+import com.fuxia.w.next.page7.gallery.utils.NotificationCenter;
 
 import java.io.File;
 import java.util.ArrayList;
 
 import static android.content.ContentValues.TAG;
-import static com.dhc.gallery.ui.GalleryActivity.GALLERY_CONFIG;
+import static com.fuxia.w.next.page7.gallery.ui.GalleryActivity.GALLERY_CONFIG;
+
 
 /**
- * 创建者     邓浩宸
+ * 创建者
  * 创建时间   2017/4/7 15:13
  * 描述	      ${TODO}
  */

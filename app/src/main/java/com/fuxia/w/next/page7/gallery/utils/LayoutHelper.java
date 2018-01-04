@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.utils;
+package com.fuxia.w.next.page7.gallery.utils;
 
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;

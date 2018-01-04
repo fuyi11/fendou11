@@ -1,4 +1,4 @@
-package com.dhc.gallery.utils;
+package com.fuxia.w.next.page7.gallery.utils;
 
 import android.os.Looper;
 import android.util.SparseArray;

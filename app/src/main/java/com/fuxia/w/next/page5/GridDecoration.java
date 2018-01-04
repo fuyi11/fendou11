@@ -1,4 +1,4 @@
-package qdx.stickyheaderdecoration;
+package com.fuxia.w.next.page5;
 
 import android.graphics.Rect;
 import android.support.v7.widget.GridLayoutManager;

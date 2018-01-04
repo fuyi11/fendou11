@@ -1,4 +1,4 @@
-package com.example.library;
+package com.fuxia.w.next.page6;
 
 import android.view.View;
 

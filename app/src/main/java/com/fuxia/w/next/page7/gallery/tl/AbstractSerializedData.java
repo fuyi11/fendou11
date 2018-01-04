@@ -1,4 +1,4 @@
-package com.dhc.gallery.tl;
+package com.fuxia.w.next.page7.gallery.tl;
 
 public abstract class AbstractSerializedData {
 

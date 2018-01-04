@@ -1,4 +1,4 @@
-package com.zhuyong.balloonrelativelayout;
+package com.fuxia.w.next.page4;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -19,10 +19,12 @@ import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
+import com.fuxia.w.R;
+
 import java.util.Random;
 
 /**
- * Created by zhuyong on 2017/7/19.
+ * Created by fuyi on 2017/7/19.
  */
 
 public class BalloonRelativeLayout extends RelativeLayout {
@@ -56,9 +58,9 @@ public class BalloonRelativeLayout extends RelativeLayout {
     private void init() {
         //初始化显示的图片
         drawables = new Drawable[3];
-        Drawable mBalloon = ContextCompat.getDrawable(mContext, R.mipmap.balloon_pink);
-        Drawable mBalloon2 = ContextCompat.getDrawable(mContext, R.mipmap.balloon_purple);
-        Drawable mBalloon3 = ContextCompat.getDrawable(mContext, R.mipmap.balloon_blue);
+        Drawable mBalloon = ContextCompat.getDrawable(mContext, R.drawable.balloon_pink);
+        Drawable mBalloon2 = ContextCompat.getDrawable(mContext, R.drawable.balloon_purple);
+        Drawable mBalloon3 = ContextCompat.getDrawable(mContext, R.drawable.balloon_blue);
         drawables[0] = mBalloon;
         drawables[1] = mBalloon2;
         drawables[2] = mBalloon3;

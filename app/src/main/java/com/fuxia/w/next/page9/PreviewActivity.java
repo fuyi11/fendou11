@@ -1,4 +1,4 @@
-package com.dev.testselectpics;
+package com.fuxia.w.next.page9;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,9 +14,11 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.dev.testselectpics.utils.ImageCompressUtils;
-import com.dev.testselectpics.utils.SDPathUtils;
-import com.dev.testselectpics.view.ClipImageView;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page9.utils.ImageCompressUtils;
+import com.fuxia.w.next.page9.utils.SDPathUtils;
+import com.fuxia.w.next.page9.view.ClipImageView2;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -25,7 +27,8 @@ import java.io.IOException;
 
 public class PreviewActivity extends Activity {
 
-	private ClipImageView imageView;
+	private ClipImageView2 imageView;
+
 	private Button btnY, btnN;
 	private Bitmap bitmap = null;
 	private Button btnLeft;
@@ -44,7 +47,7 @@ public class PreviewActivity extends Activity {
 			//getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
 		}
 		setContentView(R.layout.sp_crop_image);
-		imageView = (ClipImageView) findViewById(R.id.src_pic);
+		imageView = (ClipImageView2) findViewById(R.id.src_pic);
 
 		btnLeft = (Button) findViewById(R.id.btn_left);
 		btnRight = (Button) findViewById(R.id.btn_right);

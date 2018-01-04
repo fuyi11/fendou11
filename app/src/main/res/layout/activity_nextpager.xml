@@ -44,5 +44,142 @@
         android:text="下弹"
         android:textColor="#ffff" />
 
+    <Button
+        android:id="@+id/nx_buttons5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/fbutton_color_turquoise"
+        android:text="qq登录"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/nx_buttons6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons5"
+        android:background="@color/fbutton_color_turquoise"
+        android:text="数字登录"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/nx_buttons7"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons6"
+        android:background="@color/color2"
+        android:text="粘头装饰"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons7"
+        android:background="@color/color1"
+        android:text="FlowLayout"
+        android:textColor="#ffff" />
+
+
+
+    <Button
+        android:id="@+id/nx_buttons9"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/index_rate_red"
+        android:text="图片选择"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/nx_buttons10"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons9"
+        android:background="@color/fbutton_color_turquoise"
+        android:text="电影漂流"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons11"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons10"
+        android:background="@color/fbutton_color_sun_flower"
+        android:text="头像上传"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons12"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/nx_buttons11"
+        android:background="@color/color1"
+        android:text="头像上传2"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons13"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons9"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/fbutton_color_turquoise"
+        android:text="签到2"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/nx_buttons14"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons9"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/color1"
+        android:text="购物数量"
+        android:layout_toRightOf="@+id/nx_buttons13"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/nx_buttons15"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons9"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/fbutton_color_amethyst"
+        android:text="搜索"
+        android:layout_toRightOf="@+id/nx_buttons14"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons16"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons9"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/fbutton_color_nephritis"
+        android:text="微博+"
+        android:layout_toRightOf="@+id/nx_buttons15"
+        android:textColor="#ffff" />
 
 </RelativeLayout>

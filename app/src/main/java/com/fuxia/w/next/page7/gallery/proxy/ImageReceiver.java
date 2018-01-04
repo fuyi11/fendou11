@@ -1,4 +1,4 @@
-package com.dhc.gallery.proxy;
+package com.fuxia.w.next.page7.gallery.proxy;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
@@ -15,12 +15,13 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.dhc.gallery.components.AnimatedFileDrawable;
-import com.dhc.gallery.tl.FileLocation;
-import com.dhc.gallery.tl.TLObject;
-import com.dhc.gallery.utils.ImageLoader;
-import com.dhc.gallery.utils.NotificationCenter;
-import com.dhc.gallery.utils.Utilities;
+import com.fuxia.w.next.page7.gallery.components.AnimatedFileDrawable;
+import com.fuxia.w.next.page7.gallery.tl.FileLocation;
+import com.fuxia.w.next.page7.gallery.tl.TLObject;
+import com.fuxia.w.next.page7.gallery.utils.ImageLoader;
+import com.fuxia.w.next.page7.gallery.utils.NotificationCenter;
+import com.fuxia.w.next.page7.gallery.utils.Utilities;
+
 
 public class ImageReceiver implements NotificationCenter.NotificationCenterDelegate {
 

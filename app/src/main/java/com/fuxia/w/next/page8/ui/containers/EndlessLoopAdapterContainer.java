@@ -1,4 +1,4 @@
-package it.moondroid.coverflow.components.ui.containers;
+package com.fuxia.w.next.page8.ui.containers;
 
 
 import android.content.Context;
@@ -18,13 +18,15 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.Scroller;
 
+import com.fuxia.w.R;
+import com.fuxia.w.next.page8.general.ToolBox;
+import com.fuxia.w.next.page8.general.Validate;
+import com.fuxia.w.next.page8.ui.containers.interfaces.IViewObserver;
+
 import java.lang.ref.WeakReference;
 import java.util.LinkedList;
 
-import it.moondroid.coverflow.R;
-import it.moondroid.coverflow.components.general.ToolBox;
-import it.moondroid.coverflow.components.general.Validate;
-import it.moondroid.coverflow.components.ui.containers.interfaces.IViewObserver;
+
 
 
 /**

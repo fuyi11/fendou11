@@ -1,10 +1,10 @@
-package it.moondroid.coverflow.components.ui.containers.contentbands;
+package com.fuxia.w.next.page8.ui.containers.contentbands;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 
-import it.moondroid.coverflow.components.general.ToolBox;
+import com.fuxia.w.next.page8.general.ToolBox;
 
 
 /**

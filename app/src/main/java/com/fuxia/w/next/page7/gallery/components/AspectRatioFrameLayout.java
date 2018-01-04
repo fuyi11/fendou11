@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package qdx.stickyheaderdecoration.linear;
+package com.fuxia.w.next.page5.linear;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,25 +6,28 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
+import com.fuxia.w.R;
+import com.fuxia.w.next.page5.NormalDecoration;
+import com.fuxia.w.next.page5.linear.datas.Car;
+import com.fuxia.w.next.page5.linear.datas.CarsList;
+import com.fuxia.w.next.page5.linear.datas.RecCarAdapter;
+
 import java.util.List;
 
-import butterknife.BindView;
+
 import butterknife.ButterKnife;
-import qdx.stickyheaderdecoration.NormalDecoration;
-import qdx.stickyheaderdecoration.R;
-import qdx.stickyheaderdecoration.linear.datas.Car;
-import qdx.stickyheaderdecoration.linear.datas.CarsList;
-import qdx.stickyheaderdecoration.linear.datas.RecCarAdapter;
+import butterknife.InjectView;
+
 
 public class LinearNormalActivity extends AppCompatActivity {
-    @BindView(R.id.recView)
+    @InjectView(R.id.recView)
     RecyclerView mRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_layout);
-        ButterKnife.bind(this);
+        ButterKnife.inject(this);
 
         final List<Car> carList = CarsList.getCars();
 

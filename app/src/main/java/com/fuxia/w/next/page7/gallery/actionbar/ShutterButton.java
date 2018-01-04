@@ -1,4 +1,4 @@
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -10,8 +10,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.utils.AndroidUtilities;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 
 public class ShutterButton extends View {

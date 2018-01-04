@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.utils;
+package com.fuxia.w.next.page7.gallery.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -19,8 +19,9 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.SparseArray;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.tl.Document;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.tl.Document;
 
 import java.io.File;
 import java.lang.ref.WeakReference;

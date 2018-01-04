@@ -1,9 +1,9 @@
-package com.dhc.gallery.utils;
+package com.fuxia.w.next.page7.gallery.utils;
 
-import com.dhc.gallery.tl.Document;
-import com.dhc.gallery.tl.FileLocation;
-import com.dhc.gallery.tl.InputFileLocation;
-import com.dhc.gallery.tl.TLUploadFile;
+import com.fuxia.w.next.page7.gallery.tl.Document;
+import com.fuxia.w.next.page7.gallery.tl.FileLocation;
+import com.fuxia.w.next.page7.gallery.tl.InputFileLocation;
+import com.fuxia.w.next.page7.gallery.tl.TLUploadFile;
 
 import java.io.File;
 import java.io.RandomAccessFile;

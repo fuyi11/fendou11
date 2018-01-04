@@ -1,4 +1,4 @@
-package qdx.stickyheaderdecoration.grid.datas;
+package com.fuxia.w.next.page5.grid.datas;
 
 import android.app.Activity;
 import android.support.v7.widget.RecyclerView;
@@ -9,14 +9,16 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.fuxia.w.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import butterknife.BindView;
+
 import butterknife.ButterKnife;
+import butterknife.InjectView;
 import butterknife.OnClick;
-import qdx.stickyheaderdecoration.R;
+
 
 
 public class RecWomenAdapter extends RecyclerView.Adapter<RecWomenAdapter.Holder> {
@@ -57,12 +59,12 @@ public class RecWomenAdapter extends RecyclerView.Adapter<RecWomenAdapter.Holder
 
 
     static class Holder extends RecyclerView.ViewHolder {
-        @BindView(R.id.item_iv)
+        @InjectView(R.id.item_iv)
         ImageView iv_logo;
 
         Holder(View itemView) {
             super(itemView);
-            ButterKnife.bind(this, itemView);
+            ButterKnife.inject(this, itemView);
         }
 
         @OnClick(R.id.item_content)

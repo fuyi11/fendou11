@@ -85,7 +85,7 @@ public class GuaGuaKaView extends View {
         mCanvas = new Canvas(mBitmap);
 //        mCanvas.drawBitmap(mCoverBitmap, 0, 0, null);
         mCanvas.drawColor(Color.parseColor("#abc777"));//图片中有空白像素的地方，先在位图上绘制一个底色
-        mCanvas.drawBitmap(mCoverBitmap, null, new Rect(0, 0, w, h), null); //再贴上遮盖的图片
+        mCanvas.drawBitmap(mCoverBitmap, null, new Rect(0, 0, w, h), null); //再贴上遮盖的图片 
 
         setOuterPaint();
         setInnerPaint();

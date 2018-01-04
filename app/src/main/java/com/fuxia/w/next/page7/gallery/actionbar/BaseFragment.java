@@ -1,4 +1,4 @@
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.animation.AnimatorSet;
 import android.app.Activity;
@@ -10,7 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.dhc.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.Theme;
+
 
 public class BaseFragment {
 

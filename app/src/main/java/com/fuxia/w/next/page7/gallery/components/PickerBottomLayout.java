@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -9,12 +9,11 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.dhc.gallery.ui.PhotoAlbumPickerActivity;
-import com.dhc.gallery.R;
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
-
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.ui.PhotoAlbumPickerActivity;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 public class PickerBottomLayout extends FrameLayout {
 
     public LinearLayout doneButton;

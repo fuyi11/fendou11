@@ -1,4 +1,4 @@
-package com.dhc.gallery;
+package com.fuxia.w.next.page7.gallery;
 
 import android.database.DataSetObserver;
 import android.view.View;

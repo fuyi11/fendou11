@@ -17,7 +17,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textSize="16sp"
-        android:textColor="@color/btn_common_text"
+        android:textColor="@color/text_color"
         android:background="@drawable/bg_sub_tag">
 
     </TextView>

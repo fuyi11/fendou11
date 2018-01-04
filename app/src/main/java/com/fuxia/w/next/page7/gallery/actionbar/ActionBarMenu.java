@@ -1,4 +1,4 @@
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,9 +6,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
+
 
 public class ActionBarMenu extends LinearLayout {
 

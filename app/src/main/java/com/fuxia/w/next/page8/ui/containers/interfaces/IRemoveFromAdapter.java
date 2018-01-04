@@ -1,4 +1,4 @@
-package it.moondroid.coverflow.components.ui.containers.interfaces;
+package com.fuxia.w.next.page8.ui.containers.interfaces;
 
 
 public interface IRemoveFromAdapter{

@@ -14,7 +14,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
-        android:textColor="@color/clr_000000"
+        android:textColor="@color/RoundProgressBarback_2"
         android:text="需要写的信息"
         android:textSize="18sp" />
 

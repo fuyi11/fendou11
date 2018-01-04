@@ -1,1 +1,1 @@
-include ':app', ':sample', ':library', ':librarys', ':flowlayout'
+include ':app', ':sample', ':library', ':librarys', ':flowlayout', ':gallery'

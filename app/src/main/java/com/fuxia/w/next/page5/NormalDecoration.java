@@ -1,4 +1,4 @@
-package qdx.stickyheaderdecoration;
+package com.fuxia.w.next.page5;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
+
 
 import java.util.HashMap;
 import java.util.Map;

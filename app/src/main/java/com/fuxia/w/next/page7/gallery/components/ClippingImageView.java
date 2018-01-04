@@ -1,4 +1,4 @@
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.content.Context;
 import android.graphics.Bitmap;

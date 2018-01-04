@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.dhc.gallery.camera;
+package com.fuxia.w.next.page7.gallery.camera;
 
 import android.hardware.Camera;
 

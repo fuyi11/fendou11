@@ -1,4 +1,4 @@
-package it.moondroid.coverflowdemo;
+package com.fuxia.w.next.page8;
 
 /**
  * Created by marco.granatiero on 03/02/2015.

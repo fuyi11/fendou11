@@ -1,4 +1,4 @@
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
@@ -7,7 +7,9 @@ import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 import android.view.animation.DecelerateInterpolator;
 
-import com.dhc.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 public class MenuDrawable extends Drawable {
 

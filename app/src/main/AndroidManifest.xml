@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.fuxia.w">
 
 
@@ -7,8 +8,22 @@
     <!--android:minSdkVersion="17"-->
     <!--android:targetSdkVersion="24" />-->
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -24,7 +39,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:theme">
         <activity android:name="com.fuxia.w.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,10 +82,11 @@
         <activity android:name="com.fuxia.w.view17.LunboActivity3" />
         <activity android:name="com.fuxia.w.wuziqi.WuZiQiActivity" />
         <activity android:name="com.fuxia.w.youxi.YouXiActivity" />
-        <activity android:name="com.fuxia.w.NextPageActivity"/>
+        <activity android:name="com.fuxia.w.NextPageActivity" />
         <activity android:name="com.fuxia.w.youxi.WuZiQiActivity2" />
-        <activity android:name="com.fuxia.w.liandong.LianDongActivity"
-                  android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fuxia.w.liandong.LianDongActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <!--android:theme="@style/Theme.AppCompat.Light.NoActionBar"-->
         <!--android:theme="@style/Theme.AppCompat.NoActionBar"-->
         <!--android:theme="@style/AppTheme.NoActionBar"-->
@@ -91,13 +108,50 @@
         <activity android:name="com.fuxia.w.donghua.superposition.SuperPositionActivity" />
         <activity android:name="com.fuxia.w.next.page1.TimeLianDongActivity" />
         <activity android:name="com.fuxia.w.next.page1.OverlayActivity" />
-        <activity android:name=".next.page3.TinaDaoActivity" />
+        <activity android:name=".next.page3.QianDaoActivity" />
         <activity android:name=".next.page2.XiaTanActivity" />
+        <activity android:name=".next.page4.QQDengLuActivity" />
+        <activity android:name=".next.page3.ShuZiActivity" />
+        <activity android:name=".next.page5.grid.GridCustomActivity" />
+        <activity android:name=".next.page5.grid.GridNormalActivity" />
+        <activity android:name=".next.page5.linear.LinearCustomActivity" />
+        <activity android:name=".next.page5.linear.LinearNormalActivity" />
+        <activity android:name=".next.page5.zhanXingtouActivity" />
+        <activity android:name=".next.page6.SpecialFlowActivity" />
+        <activity android:name=".next.page6.AutoFlowLayoutActivity" />
+        <activity android:name=".next.page6.NormalFlowActivity" />
+        <activity android:name=".next.page6.NormalGridActivity" />
+        <activity android:name=".next.page6.SpecialGridActivity" />
+        <activity android:name=".next.page7.PictureActivity" />
+        <activity
+            android:name=".next.page7.gallery.ui.GalleryActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.TMessages">
 
+        </activity>
 
+        <activity android:name=".next.page8.CoverFlowActivity" />
+        <activity android:name=".next.page9.ShangchuanTouXiangActivity" />
+        <activity android:name=".next.page9.PreviewActivity" />
+        <activity android:name=".next.page9.view.ClipImageActivity" />
+        <activity android:name=".next.page10.ShangchuanTouXiangActivity2" />
+        <activity android:name=".next.page11.NewQianDaoActivity" />
+        <activity android:name=".next.page12.AmountViewActivity" />
+        <activity android:name=".next.page13.SearchActivity" />
+        <activity android:name=".next2.page_two1.WeiboAddActivity" />
 
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.camera_photos.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <service android:name="com.fuxia.w.view15.PhoneStateService"></service>
+
         <receiver android:name="com.fuxia.w.view15.BootReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -115,5 +169,16 @@
                 <action android:name="com.broadcast.test" />
             </intent-filter>
         </receiver>
+
+
+        <!--<provider-->
+        <!--android:authorities="com.fuxia.w.fileprovider"-->
+        <!--android:name="android.support.v4.content.FileProvider"-->
+        <!--android:grantUriPermissions="true"-->
+        <!--android:exported="false">-->
+        <!--<meta-data-->
+        <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+        <!--android:resource="@xml/file_paths"/>-->
+        <!--</provider>-->
     </application>
 </manifest>

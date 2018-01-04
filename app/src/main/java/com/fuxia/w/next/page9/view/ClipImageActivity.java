@@ -1,4 +1,4 @@
-package com.dev.testselectpics.view;
+package com.fuxia.w.next.page9.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,8 +15,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.dev.testselectpics.R;
-import com.dev.testselectpics.utils.ImageCompressUtils;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page9.utils.ImageCompressUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

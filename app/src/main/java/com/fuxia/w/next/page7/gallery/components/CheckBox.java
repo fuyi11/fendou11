@@ -1,4 +1,4 @@
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -9,7 +9,9 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.view.View;
 
-import com.dhc.gallery.utils.AndroidUtilities;
+
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+
 
 public class CheckBox extends View {
 

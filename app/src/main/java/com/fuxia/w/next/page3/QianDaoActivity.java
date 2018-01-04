@@ -18,7 +18,7 @@ import com.fuxia.w.R;
  * Created by fuyi on 2017/7/20.
  */
 
-public class QinaDaoActivity extends AppCompatActivity {
+public class QianDaoActivity extends AppCompatActivity {
     private ImageView mSignIn;
     private ImageView redDot;
     private TextView signSuccess;

@@ -1,4 +1,4 @@
-package it.moondroid.coverflow.components.ui.containers;
+package com.fuxia.w.next.page8.ui.containers;
 
 import android.animation.Animator;
 import android.animation.Animator.AnimatorListener;
@@ -14,10 +14,10 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import it.moondroid.coverflow.R;
-import it.moondroid.coverflow.components.general.ToolBox;
-import it.moondroid.coverflow.components.ui.containers.interfaces.IRemovableItemsAdapterComponent;
-import it.moondroid.coverflow.components.ui.containers.interfaces.IRemoveFromAdapter;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page8.general.ToolBox;
+import com.fuxia.w.next.page8.ui.containers.interfaces.IRemovableItemsAdapterComponent;
+import com.fuxia.w.next.page8.ui.containers.interfaces.IRemoveFromAdapter;
 
 
 public class HorizontalListWithRemovableItems extends HorizontalList {

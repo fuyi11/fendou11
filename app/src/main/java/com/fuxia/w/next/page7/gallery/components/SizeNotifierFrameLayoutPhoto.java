@@ -1,4 +1,4 @@
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -6,7 +6,9 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import com.dhc.gallery.utils.AndroidUtilities;
+
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+
 
 public class SizeNotifierFrameLayoutPhoto extends FrameLayout {
 

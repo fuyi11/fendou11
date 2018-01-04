@@ -1,4 +1,4 @@
-package com.dhc.gallery.proxy;
+package com.fuxia.w.next.page7.gallery.proxy;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

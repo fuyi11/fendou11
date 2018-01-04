@@ -1,6 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dip"
+    android:background="@color/black2"
+    android:orientation="vertical">
 
-</LinearLayout>
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl_dialog_camero"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_dialog_camero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="拍一张照片"
+            android:textColor="@color/textcolor_1"
+            android:textSize="15dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_photos"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rl_dialog_camero"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/tv_dialog_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="从相册中选一张"
+            android:textColor="@color/textcolor_1"
+            android:textSize="15dip" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog_deselect"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:layout_below="@+id/rl_dialog_photos"
+        android:layout_marginTop="30dp"
+        android:background="@color/tab_color3"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="取消"
+            android:gravity="center"
+            android:background="@color/tab_color3"
+            android:textColor="@color/textcolor_1"
+            android:textSize="15dp"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

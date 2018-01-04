@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.components;
+package com.fuxia.w.next.page7.gallery.components;
 
 import android.content.Context;
 import android.os.Build;
@@ -12,10 +12,11 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
-import com.dhc.gallery.utils.MediaController;
-import com.dhc.gallery.R;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
+import com.fuxia.w.next.page7.gallery.utils.MediaController;
 
 public class PhotoPickerAlbumsCell extends FrameLayout {
 

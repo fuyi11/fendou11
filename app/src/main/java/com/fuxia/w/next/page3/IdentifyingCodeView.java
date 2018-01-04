@@ -1,4 +1,4 @@
-package jack.com.verificationcodeview.view;
+package com.fuxia.w.next.page3;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -17,7 +17,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import jack.com.verificationcodeview.R;
+import com.fuxia.w.R;
 
 
 /**
@@ -194,9 +194,9 @@ public class IdentifyingCodeView extends RelativeLayout {
                 if (inputCompleteListener != null) {
                     inputCompleteListener.deleteContent();
                 }
-                tv.setBackgroundDrawable(mEtBackgroundDrawableFocus);
+                tv.setBackgroundDrawable(mEtBackgroundDrawableFocus);//有焦点时背景
                 if (i < mEtNumber - 1) {
-                    mTextViews[i + 1].setBackgroundDrawable(mEtBackgroundDrawableNormal);
+                    mTextViews[i + 1].setBackgroundDrawable(mEtBackgroundDrawableNormal);//没有焦点时背景
                 }
                 break;
             }

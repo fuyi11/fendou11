@@ -1,4 +1,4 @@
-package com.dev.testselectpics.view;
+package com.fuxia.w.next.page9.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

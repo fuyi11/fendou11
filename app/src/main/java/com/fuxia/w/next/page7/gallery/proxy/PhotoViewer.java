@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.proxy;
+package com.fuxia.w.next.page7.gallery.proxy;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -39,38 +39,39 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Scroller;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.actionbar.ActionBar;
-import com.dhc.gallery.actionbar.ActionBarMenu;
-import com.dhc.gallery.actionbar.BaseFragment;
-import com.dhc.gallery.components.AnimatedFileDrawable;
-import com.dhc.gallery.components.AspectRatioFrameLayout;
-import com.dhc.gallery.components.CheckBox;
-import com.dhc.gallery.components.ClippingImageView;
-import com.dhc.gallery.components.PhotoCropView;
-import com.dhc.gallery.components.PickerBottomLayout;
-import com.dhc.gallery.components.SizeNotifierFrameLayoutPhoto;
-import com.dhc.gallery.tl.Document;
-import com.dhc.gallery.tl.FileLocation;
-import com.dhc.gallery.tl.Photo;
-import com.dhc.gallery.tl.PhotoSize;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.FileLoader;
-import com.dhc.gallery.utils.Gallery;
-import com.dhc.gallery.utils.ImageLoader;
-import com.dhc.gallery.utils.LayoutHelper;
-import com.dhc.gallery.utils.MediaController;
-import com.dhc.gallery.utils.NotificationCenter;
-import com.dhc.gallery.utils.Utilities;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBar;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBarMenu;
+import com.fuxia.w.next.page7.gallery.actionbar.BaseFragment;
+import com.fuxia.w.next.page7.gallery.components.AnimatedFileDrawable;
+import com.fuxia.w.next.page7.gallery.components.AspectRatioFrameLayout;
+import com.fuxia.w.next.page7.gallery.components.CheckBox;
+import com.fuxia.w.next.page7.gallery.components.ClippingImageView;
+import com.fuxia.w.next.page7.gallery.components.PhotoCropView;
+import com.fuxia.w.next.page7.gallery.components.PickerBottomLayout;
+import com.fuxia.w.next.page7.gallery.components.SizeNotifierFrameLayoutPhoto;
+import com.fuxia.w.next.page7.gallery.tl.Document;
+import com.fuxia.w.next.page7.gallery.tl.FileLocation;
+import com.fuxia.w.next.page7.gallery.tl.Photo;
+import com.fuxia.w.next.page7.gallery.tl.PhotoSize;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.FileLoader;
+import com.fuxia.w.next.page7.gallery.utils.Gallery;
+import com.fuxia.w.next.page7.gallery.utils.ImageLoader;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
+import com.fuxia.w.next.page7.gallery.utils.MediaController;
+import com.fuxia.w.next.page7.gallery.utils.NotificationCenter;
+import com.fuxia.w.next.page7.gallery.utils.Utilities;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static com.dhc.gallery.ui.PhotoAlbumPickerActivity.limitPickPhoto;
-import static com.dhc.gallery.ui.PhotoAlbumPickerActivity.sHintOfPick;
+import static com.fuxia.w.next.page7.gallery.ui.PhotoAlbumPickerActivity.limitPickPhoto;
+import static com.fuxia.w.next.page7.gallery.ui.PhotoAlbumPickerActivity.sHintOfPick;
+
 
 @SuppressWarnings("unchecked")
 public class PhotoViewer implements NotificationCenter.NotificationCenterDelegate,

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
 
     <color name="textcolor_gray">#cccccc</color>
-    <color name="colorAccent">#22A0F6</color>
-    <color name="colorPrimary">#22A0F6</color>
-    <color name="colorPrimaryDark">#22A0F6</color>
 
 
     <color name="textcolor_black">#666666</color>
@@ -67,6 +67,8 @@
     <color name="eggplant">#03A679</color>
     <color name="sienna">#EB6460</color>
 
+    <color name="divider">#dcdcdc</color>
+    <color name="clr_000000">#000000</color>
 
     <color name="tab_color">#8d8d8d</color>
     <color name="tab_color2">#d6d6d6</color>
@@ -166,4 +168,14 @@
     <color name="mask_color">#88888888</color>
     <color name="check_bg">#f2f2f2</color>
     <color name="un_press_color">#9C27B0</color>
+
+    <!-- 深色字体颜色 -->
+    <color name="text_color_deep">#333333</color>
+    <color name="text_color_deep2">#747474</color>
+    <!-- 深色字体颜色 -->
+    <color name="text_color_deep_middle">#666666</color>
+    <!-- 浅色字体颜色 -->
+    <color name="text_color_light">#999999</color>
+    <color name="text_color_light2">#acacac</color>
+
 </resources>

@@ -1,4 +1,4 @@
-package com.example.lvruheng.autoflowlayout;
+package com.fuxia.w.next.page6;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.library.AutoFlowLayout;
+import com.fuxia.w.R;
+
 
 /**
  * Created by lvruheng on 2017/8/4.

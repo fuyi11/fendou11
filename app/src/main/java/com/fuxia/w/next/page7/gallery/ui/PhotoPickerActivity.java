@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.ui;
+package com.fuxia.w.next.page7.gallery.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,30 +23,32 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.dhc.gallery.BaseFragmentAdapter;
-import com.dhc.gallery.R;
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.actionbar.ActionBar;
-import com.dhc.gallery.actionbar.ActionBarMenu;
-import com.dhc.gallery.actionbar.ActionBarMenuItem;
-import com.dhc.gallery.actionbar.BaseFragment;
-import com.dhc.gallery.components.BackupImageView;
-import com.dhc.gallery.components.PhotoPickerPhotoCell;
-import com.dhc.gallery.components.PickerBottomLayout;
-import com.dhc.gallery.proxy.PhotoViewer;
-import com.dhc.gallery.tl.FileLocation;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.FileLoader;
-import com.dhc.gallery.utils.Gallery;
-import com.dhc.gallery.utils.LayoutHelper;
-import com.dhc.gallery.utils.MediaController;
-import com.dhc.gallery.utils.NotificationCenter;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.BaseFragmentAdapter;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBar;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBarMenu;
+import com.fuxia.w.next.page7.gallery.actionbar.ActionBarMenuItem;
+import com.fuxia.w.next.page7.gallery.actionbar.BaseFragment;
+import com.fuxia.w.next.page7.gallery.components.BackupImageView;
+import com.fuxia.w.next.page7.gallery.components.PhotoPickerPhotoCell;
+import com.fuxia.w.next.page7.gallery.components.PickerBottomLayout;
+import com.fuxia.w.next.page7.gallery.proxy.PhotoViewer;
+import com.fuxia.w.next.page7.gallery.tl.FileLocation;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.FileLoader;
+import com.fuxia.w.next.page7.gallery.utils.Gallery;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
+import com.fuxia.w.next.page7.gallery.utils.MediaController;
+import com.fuxia.w.next.page7.gallery.utils.NotificationCenter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import static com.dhc.gallery.ui.PhotoAlbumPickerActivity.DarkTheme;
-import static com.dhc.gallery.ui.PhotoAlbumPickerActivity.sHintOfPick;
+import static com.fuxia.w.next.page7.gallery.ui.PhotoAlbumPickerActivity.DarkTheme;
+import static com.fuxia.w.next.page7.gallery.ui.PhotoAlbumPickerActivity.sHintOfPick;
+
 
 public class PhotoPickerActivity extends BaseFragment
         implements NotificationCenter.NotificationCenterDelegate, PhotoViewer.PhotoViewerProvider {

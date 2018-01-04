@@ -1,4 +1,4 @@
-package it.moondroid.coverflow.components.ui.containers.contentbands;
+package com.fuxia.w.next.page8.ui.containers.contentbands;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,6 +12,10 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
+import com.fuxia.w.R;
+import com.fuxia.w.next.page8.general.ToolBox;
+import com.fuxia.w.next.page8.general.Validate;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,9 +24,6 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
-import it.moondroid.coverflow.R;
-import it.moondroid.coverflow.components.general.ToolBox;
-import it.moondroid.coverflow.components.general.Validate;
 
 
 /**

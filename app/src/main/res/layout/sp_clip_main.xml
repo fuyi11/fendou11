@@ -4,12 +4,12 @@
     android:background="#aa000000"
     android:orientation="vertical" >
 
-    <com.dev.testselectpics.view.ClipImageLayout
+    <com.fuxia.w.next.page9.view.ClipImageLayout
         android:id="@+id/id_clipImageLayout"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
-    </com.dev.testselectpics.view.ClipImageLayout>
+    </com.fuxia.w.next.page9.view.ClipImageLayout>
 
     <LinearLayout
         android:id="@+id/gl_modify_avatar_bottom"

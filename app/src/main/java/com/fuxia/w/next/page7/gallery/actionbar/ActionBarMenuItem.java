@@ -1,4 +1,4 @@
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -21,11 +21,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.dhc.gallery.components.ActionBarPopupWindow;
-import com.dhc.gallery.R;
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.components.ActionBarPopupWindow;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 import java.lang.reflect.Field;
 

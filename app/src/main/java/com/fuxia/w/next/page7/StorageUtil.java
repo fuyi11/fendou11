@@ -1,4 +1,4 @@
-package com.hc.gallery.util;
+package com.fuxia.w.next.page7;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,7 +8,7 @@ import android.text.TextUtils;
 import java.io.File;
 import java.util.UUID;
 /**
- * 创建者：邓浩宸
+ * 创建者：
  * 时间 ：2017/4/20 13:01
  * 描述 ：TODO 请描述该类职责
  */

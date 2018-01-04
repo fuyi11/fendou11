@@ -1,4 +1,4 @@
-package it.moondroid.coverflowdemo;
+package com.fuxia.w.next.page8;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -14,9 +14,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
+import com.fuxia.w.R;
+import com.fuxia.w.next.page8.ui.containers.FeatureCoverFlow;
+
 import java.util.ArrayList;
 
-import it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow;
+
 
 
 public class CoverFlowActivity extends ActionBarActivity {

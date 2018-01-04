@@ -1,4 +1,4 @@
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -15,16 +15,22 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.dhc.gallery.Theme;
-import com.dhc.gallery.proxy.AnimatorListenerAdapterProxy;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.Gallery;
-import com.dhc.gallery.utils.LayoutHelper;
+
+import com.fuxia.w.next.page7.gallery.Theme;
+import com.fuxia.w.next.page7.gallery.proxy.AnimatorListenerAdapterProxy;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.Gallery;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 import java.util.ArrayList;
 
 public class ActionBar extends FrameLayout {
 
+    private SimpleTextView subtitleTextView;
+    private SimpleTextView titleTextView;
+    private ActionBarMenu menu;
+    private ActionBarMenu actionMode;
+    protected BaseFragment parentFragment;
     public static class ActionBarMenuOnItemClick {
         public void onItemClick(int id) {
 
@@ -38,11 +44,8 @@ public class ActionBar extends FrameLayout {
     private TextView backButtonTextView;
     private FrameLayout backContainer;
     private ImageView backButtonImageView;
-    private com.dhc.gallery.actionbar.SimpleTextView titleTextView;
-    private com.dhc.gallery.actionbar.SimpleTextView subtitleTextView;
     private View actionModeTop;
-    private com.dhc.gallery.actionbar.ActionBarMenu menu;
-    private com.dhc.gallery.actionbar.ActionBarMenu actionMode;
+
     private boolean occupyStatusBar = Build.VERSION.SDK_INT >= 21;
     private boolean actionModeVisible;
     private boolean addToContainer = true;
@@ -57,7 +60,6 @@ public class ActionBar extends FrameLayout {
     protected boolean isSearchFieldVisible;
     protected int itemsBackgroundColor;
     private boolean isBackOverlayVisible;
-    protected com.dhc.gallery.actionbar.BaseFragment parentFragment;
     public ActionBarMenuOnItemClick actionBarMenuOnItemClick;
     private Point screenSize;
 
@@ -133,8 +135,8 @@ public class ActionBar extends FrameLayout {
         }
         backButtonImageView.setVisibility(drawable == null ? GONE : VISIBLE);
         backButtonImageView.setImageDrawable(drawable);
-        if (drawable instanceof com.dhc.gallery.actionbar.BackDrawable) {
-            ((com.dhc.gallery.actionbar.BackDrawable) drawable).setRotation(isActionModeShowed() ? 1 : 0, false);
+        if (drawable instanceof BackDrawable) {
+            ((BackDrawable) drawable).setRotation(isActionModeShowed() ? 1 : 0, false);
         }
     }
 
@@ -156,7 +158,7 @@ public class ActionBar extends FrameLayout {
         if (subtitleTextView != null) {
             return;
         }
-        subtitleTextView = new com.dhc.gallery.actionbar.SimpleTextView(getContext());
+        subtitleTextView = new SimpleTextView(getContext());
         subtitleTextView.setGravity(Gravity.LEFT);
         subtitleTextView.setTextColor(Theme.ACTION_BAR_SUBTITLE_COLOR);
         addView(subtitleTextView, 0, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT,
@@ -186,7 +188,7 @@ public class ActionBar extends FrameLayout {
         if (titleTextView != null) {
             return;
         }
-        titleTextView = new com.dhc.gallery.actionbar.SimpleTextView(getContext());
+        titleTextView = new SimpleTextView(getContext());
         titleTextView.setGravity(Gravity.LEFT | Gravity.CENTER);
         titleTextView.setTextColor(0xffffffff);
         titleTextView.setTextSize(32);
@@ -207,11 +209,11 @@ public class ActionBar extends FrameLayout {
         }
     }
 
-    public com.dhc.gallery.actionbar.SimpleTextView getSubtitleTextView() {
+    public SimpleTextView getSubtitleTextView() {
         return subtitleTextView;
     }
 
-    public com.dhc.gallery.actionbar.SimpleTextView getTitleTextView() {
+    public SimpleTextView getTitleTextView() {
         return titleTextView;
     }
 
@@ -222,12 +224,12 @@ public class ActionBar extends FrameLayout {
         return titleTextView.getText().toString();
     }
 
-    public com.dhc.gallery.actionbar.ActionBarMenu createMenu() {
+    public ActionBarMenu createMenu() {
         if (menu != null) {
             return menu;
         }
         screenSize = AndroidUtilities.getRealScreenSize();
-        menu = new com.dhc.gallery.actionbar.ActionBarMenu(getContext(), this);
+        menu = new ActionBarMenu(getContext(), this);
         addView(menu, 0, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT,
                 LayoutHelper.MATCH_PARENT, Gravity.RIGHT));
         return menu;
@@ -237,11 +239,11 @@ public class ActionBar extends FrameLayout {
         actionBarMenuOnItemClick = listener;
     }
 
-    public com.dhc.gallery.actionbar.ActionBarMenu createActionMode() {
+    public ActionBarMenu createActionMode() {
         if (actionMode != null) {
             return actionMode;
         }
-        actionMode = new com.dhc.gallery.actionbar.ActionBarMenu(getContext(), this);
+        actionMode = new ActionBarMenu(getContext(), this);
         actionMode.setBackgroundColor(0xffffffff);
         addView(actionMode, indexOfChild(backContainer));
         actionMode.setPadding(0, occupyStatusBar ? AndroidUtilities.statusBarHeight : 0, 0, 0);
@@ -318,8 +320,8 @@ public class ActionBar extends FrameLayout {
         actionModeAnimation.start();
         if (backButtonImageView != null) {
             Drawable drawable = backButtonImageView.getDrawable();
-            if (drawable instanceof com.dhc.gallery.actionbar.BackDrawable) {
-                ((com.dhc.gallery.actionbar.BackDrawable) drawable).setRotation(1, true);
+            if (drawable instanceof BackDrawable) {
+                ((BackDrawable) drawable).setRotation(1, true);
             }
             backButtonImageView.setBackgroundDrawable(
                     Theme.createBarSelectorDrawable(Theme.ACTION_BAR_MODE_SELECTOR_COLOR));
@@ -373,8 +375,8 @@ public class ActionBar extends FrameLayout {
         }
         if (backButtonImageView != null) {
             Drawable drawable = backButtonImageView.getDrawable();
-            if (drawable instanceof com.dhc.gallery.actionbar.BackDrawable) {
-                ((com.dhc.gallery.actionbar.BackDrawable) drawable).setRotation(0, true);
+            if (drawable instanceof BackDrawable) {
+                ((BackDrawable) drawable).setRotation(0, true);
             }
             backButtonImageView
                     .setBackgroundDrawable(Theme.createBarSelectorDrawable(itemsBackgroundColor));
@@ -407,8 +409,8 @@ public class ActionBar extends FrameLayout {
             subtitleTextView.setVisibility(visible ? INVISIBLE : VISIBLE);
         }
         Drawable drawable = backButtonImageView.getDrawable();
-        if (drawable != null && drawable instanceof com.dhc.gallery.actionbar.MenuDrawable) {
-            ((com.dhc.gallery.actionbar.MenuDrawable) drawable).setRotation(visible ? 1 : 0, true);
+        if (drawable != null && drawable instanceof MenuDrawable) {
+            ((MenuDrawable) drawable).setRotation(visible ? 1 : 0, true);
         }
     }
 
@@ -599,12 +601,12 @@ public class ActionBar extends FrameLayout {
 
             //标题居中
             childLeft = screenSize.x / 2;
-            if (child instanceof com.dhc.gallery.actionbar.ActionBarMenuItem){
+            if (child instanceof ActionBarMenuItem){
                 int realTextSize;
-                int count = ((com.dhc.gallery.actionbar.ActionBarMenuItem) child).getChildCount();
+                int count = ((ActionBarMenuItem) child).getChildCount();
                 for (int j = 0; j < count; j++) {
-                    if (((com.dhc.gallery.actionbar.ActionBarMenuItem) child).getChildAt(j) instanceof TextView){
-                        TextView innertext = (TextView) ((com.dhc.gallery.actionbar.ActionBarMenuItem) child).getChildAt(j);
+                    if (((ActionBarMenuItem) child).getChildAt(j) instanceof TextView){
+                        TextView innertext = (TextView) ((ActionBarMenuItem) child).getChildAt(j);
                         realTextSize = width - innertext.getCompoundDrawablePadding();
                         Drawable rightDrawable = innertext.getCompoundDrawables()[2];
                         if (rightDrawable != null){

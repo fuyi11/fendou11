@@ -1,5 +1,5 @@
 
-package com.dhc.gallery.actionbar;
+package com.fuxia.w.next.page7.gallery.actionbar;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -24,10 +24,11 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import com.dhc.gallery.R;
-import com.dhc.gallery.proxy.AnimatorListenerAdapterProxy;
-import com.dhc.gallery.utils.AndroidUtilities;
-import com.dhc.gallery.utils.LayoutHelper;
+
+import com.fuxia.w.R;
+import com.fuxia.w.next.page7.gallery.proxy.AnimatorListenerAdapterProxy;
+import com.fuxia.w.next.page7.gallery.utils.AndroidUtilities;
+import com.fuxia.w.next.page7.gallery.utils.LayoutHelper;
 
 import java.util.ArrayList;
 
@@ -37,7 +38,7 @@ public class ActionBarLayout extends FrameLayout {
         boolean onPreIme();
 
         boolean needPresentFragment(BaseFragment fragment, boolean removeLast,
-                boolean forceWithoutAnimation, ActionBarLayout layout);
+                                    boolean forceWithoutAnimation, ActionBarLayout layout);
 
         boolean needAddFragmentToStack(BaseFragment fragment, ActionBarLayout layout);
 

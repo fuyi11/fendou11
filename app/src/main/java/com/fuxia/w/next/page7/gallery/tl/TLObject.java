@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package com.dhc.gallery.tl;
+package com.fuxia.w.next.page7.gallery.tl;
 
 public class TLObject {
 
