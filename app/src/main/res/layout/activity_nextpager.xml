@@ -181,5 +181,15 @@
         android:text="微博+"
         android:layout_toRightOf="@+id/nx_buttons15"
         android:textColor="#ffff" />
+    <Button
+        android:id="@+id/nx_buttons17"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/nx_buttons13"
+        android:layout_marginTop="10dp"
+        android:background="@color/color1"
+        android:text="跑步"
+        android:layout_marginLeft="20dp"
+        android:textColor="#ffff" />
 
 </RelativeLayout>

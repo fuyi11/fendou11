@@ -22,6 +22,7 @@ import com.fuxia.w.next.page6.AutoFlowLayoutActivity;
 import com.fuxia.w.next.page7.PictureActivity;
 import com.fuxia.w.next.page8.CoverFlowActivity;
 import com.fuxia.w.next.page9.ShangchuanTouXiangActivity;
+import com.fuxia.w.next2.page_one.PaobuActivity;
 import com.fuxia.w.next2.page_two1.WeiboAddActivity;
 
 
@@ -49,6 +50,7 @@ public class NextPageActivity extends AppCompatActivity implements View.OnClickL
         Button mButton14 = (Button) findViewById(R.id.nx_buttons14);
         Button mButton15 = (Button) findViewById(R.id.nx_buttons15);
         Button mButton16 = (Button) findViewById(R.id.nx_buttons16);
+        Button mButton17 = (Button) findViewById(R.id.nx_buttons17);
         mButton1.setOnClickListener(this);
         mButton2.setOnClickListener(this);
         mButton3.setOnClickListener(this);
@@ -65,6 +67,7 @@ public class NextPageActivity extends AppCompatActivity implements View.OnClickL
         mButton14.setOnClickListener(this);
         mButton15.setOnClickListener(this);
         mButton16.setOnClickListener(this);
+        mButton17.setOnClickListener(this);
     }
 
     @Override
@@ -133,6 +136,11 @@ public class NextPageActivity extends AppCompatActivity implements View.OnClickL
             case R.id.nx_buttons16:
                 Intent intent16 = new Intent(NextPageActivity.this,WeiboAddActivity.class);
                 startActivity(intent16);
+                break;
+
+            case R.id.nx_buttons17:
+                Intent intent17 = new Intent(NextPageActivity.this,PaobuActivity.class);
+                startActivity(intent17);
                 break;
         }
     }
